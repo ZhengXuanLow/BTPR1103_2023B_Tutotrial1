@@ -1,7 +1,6 @@
 package com.example.tutorial1;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -14,7 +13,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class Tutorial1 extends Application {
     private Text output = new Text(""); //Display
     private String name; //Store Name
     private String programme; //Store Programme
@@ -119,7 +118,7 @@ public class HelloApplication extends Application {
         bottomBox.setPadding(new Insets(15,10,15,10));
         border.setBottom(bottomBox);
 
-        stage.setTitle("Welcome to SUC");
+        stage.setTitle("Tutorial 1");
         stage.setScene(scene);
         stage.show();
     }
